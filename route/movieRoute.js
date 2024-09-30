@@ -1,11 +1,10 @@
 const express = require('express')
+const { getAllMovies } = require('../controllers/movieController');
 
 const router = express.Router()
 
 // define the get route
-router.get('/', (req, res) => {
-  res.send('movies get page')
-})
+router.get('/', getAllMovies)
 
 router.post('/', (req, res) => {
   res.send('movies post page')

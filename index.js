@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = 4000
 
-const movies = require('./route/movies')
+const movies = require('./route/movieRoute')
 app.use('/movies', movies)
 
 app.use(bodyParser.json());
