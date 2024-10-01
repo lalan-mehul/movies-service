@@ -14,7 +14,7 @@ const generateInsertStatements = async () => {
         const movies = JSON.parse(data);
 
         // Prepare the SQL insert statement
-        const sqlInsert = 'INSERT INTO movies (name, director, imdb_score, popularity, genres) VALUES ';
+        const sqlInsert = 'INSERT INTO movies (name, director, imdb_score, popularity, genre) VALUES ';
 
         // Create an array to hold the value strings
         const values = [];

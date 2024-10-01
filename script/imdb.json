@@ -4,9 +4,9 @@
     "director": "Victor Fleming",
     "genre": [
       "Adventure",
-      " Family",
-      " Fantasy",
-      " Musical"
+      "Family",
+      "Fantasy",
+      "Musical"
     ],
     "imdb_score": 8.3,
     "name": "The Wizard of Oz"
@@ -16,9 +16,9 @@
     "director": "George Lucas",
     "genre": [
       "Action",
-      " Adventure",
-      " Fantasy",
-      " Sci-Fi"
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
     ],
     "imdb_score": 8.8,
     "name": "Star Wars"
@@ -28,8 +28,8 @@
     "director": "Giovanni Pastrone",
     "genre": [
       "Adventure",
-      " Drama",
-      " War"
+      "Drama",
+      "War"
     ],
     "imdb_score": 6.6,
     "name": "Cabiria"
@@ -39,8 +39,8 @@
     "director": "Alfred Hitchcock",
     "genre": [
       "Horror",
-      " Mystery",
-      " Thriller"
+      "Mystery",
+      "Thriller"
     ],
     "imdb_score": 8.7,
     "name": "Psycho"
@@ -50,8 +50,8 @@
     "director": "Merian C. Cooper",
     "genre": [
       "Adventure",
-      " Fantasy",
-      " Horror"
+      "Fantasy",
+      "Horror"
     ],
     "imdb_score": 8.0,
     "name": "King Kong"
@@ -61,8 +61,8 @@
     "director": "Fritz Lang",
     "genre": [
       "Adventure",
-      " Drama",
-      " Sci-Fi"
+      "Drama",
+      "Sci-Fi"
     ],
     "imdb_score": 8.4,
     "name": "Metropolis"
@@ -72,7 +72,7 @@
     "director": "Marc Daniels",
     "genre": [
       "Adventure",
-      " Sci-Fi"
+      "Sci-Fi"
     ],
     "imdb_score": 8.6,
     "name": "Star Trek"
@@ -82,8 +82,8 @@
     "director": "Michael Curtiz",
     "genre": [
       "Drama",
-      " Romance",
-      " War"
+      "Romance",
+      "War"
     ],
     "imdb_score": 8.8,
     "name": "Casablanca"
@@ -93,10 +93,10 @@
     "director": "William Cottrell",
     "genre": [
       "Animation",
-      " Family",
-      " Fantasy",
-      " Musical",
-      " Romance"
+      "Family",
+      "Fantasy",
+      "Musical",
+      "Romance"
     ],
     "imdb_score": 7.9,
     "name": "Snow White and the Seven Dwarfs"
@@ -106,8 +106,8 @@
     "director": "Stanley Kubrick",
     "genre": [
       "Adventure",
-      " Mystery",
-      " Sci-Fi"
+      "Mystery",
+      "Sci-Fi"
     ],
     "imdb_score": 8.4,
     "name": "2001 : A Space Odyssey"
@@ -117,7 +117,7 @@
     "director": "Francis Ford Coppola",
     "genre": [
       "Crime",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 9.2,
     "name": "The Godfather"
@@ -127,10 +127,10 @@
     "director": "D.W. Griffith",
     "genre": [
       "Drama",
-      " History",
-      " Romance",
-      " War",
-      " Western"
+      "History",
+      "Romance",
+      "War",
+      "Western"
     ],
     "imdb_score": 7.1,
     "name": "The Birth of a Nation"
@@ -140,9 +140,9 @@
     "director": "Alfred Hitchcock",
     "genre": [
       "Crime",
-      " Film-Noir",
-      " Mystery",
-      " Thriller"
+      "Film-Noir",
+      "Mystery",
+      "Thriller"
     ],
     "imdb_score": 8.1,
     "name": "Shadow of a Doubt"
@@ -161,7 +161,7 @@
     "director": "J. Searle Dawley",
     "genre": [
       "Fantasy",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 6.4,
     "name": "Snow White"
@@ -171,7 +171,7 @@
     "director": "Francis Ford Coppola",
     "genre": [
       "Drama",
-      " War"
+      "War"
     ],
     "imdb_score": 8.6,
     "name": "Apocalypse Now"
@@ -181,8 +181,8 @@
     "director": "Victor Fleming",
     "genre": [
       "Drama",
-      " Romance",
-      " War"
+      "Romance",
+      "War"
     ],
     "imdb_score": 8.2,
     "name": "Gone with the Wind"
@@ -192,8 +192,8 @@
     "director": "Ernst Lubitsch",
     "genre": [
       "Musical",
-      " Comedy",
-      " Romance"
+      "Comedy",
+      "Romance"
     ],
     "imdb_score": 7.6,
     "name": "The Merry Widow"
@@ -203,8 +203,8 @@
     "director": "John Ford",
     "genre": [
       "Adventure",
-      " Drama",
-      " Western"
+      "Drama",
+      "Western"
     ],
     "imdb_score": 8.1,
     "name": "The Searchers"
@@ -214,9 +214,9 @@
     "director": "Alfred Hitchcock",
     "genre": [
       "Crime",
-      " Mystery",
-      " Romance",
-      " Thriller"
+      "Mystery",
+      "Romance",
+      "Thriller"
     ],
     "imdb_score": 8.6,
     "name": "Vertigo"
@@ -226,8 +226,8 @@
     "director": "Terence Young",
     "genre": [
       "Action",
-      " Adventure",
-      " Thriller"
+      "Adventure",
+      "Thriller"
     ],
     "imdb_score": 7.3,
     "name": "Dr. No"
@@ -237,8 +237,8 @@
     "director": "Orson Welles",
     "genre": [
       "Crime",
-      " Film-Noir",
-      " Thriller"
+      "Film-Noir",
+      "Thriller"
     ],
     "imdb_score": 8.3,
     "name": "Touch of Evil"
@@ -248,7 +248,7 @@
     "director": "Merian C. Cooper",
     "genre": [
       "Adventure",
-      " Documentary"
+      "Documentary"
     ],
     "imdb_score": 7.4,
     "name": "Chang : A Drama of the Wilderness"
@@ -267,7 +267,7 @@
     "director": "Orson Welles",
     "genre": [
       "Drama",
-      " Mystery"
+      "Mystery"
     ],
     "imdb_score": 8.6,
     "name": "Citizen Kane"
@@ -277,8 +277,8 @@
     "director": "James Cameron",
     "genre": [
       "Action",
-      " Sci-Fi",
-      " Thriller"
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 8.1,
     "name": "The Terminator"
@@ -288,8 +288,8 @@
     "director": "Roman Polanski",
     "genre": [
       "Drama",
-      " Horror",
-      " Mystery"
+      "Horror",
+      "Mystery"
     ],
     "imdb_score": 8.1,
     "name": "Rosemarys Baby"
@@ -299,8 +299,8 @@
     "director": "Sergei M. Eisenstein",
     "genre": [
       "Drama",
-      " History",
-      " War"
+      "History",
+      "War"
     ],
     "imdb_score": 8.1,
     "name": "Bronenosets Potyomkin"
@@ -310,8 +310,8 @@
     "director": "Irvin Kershner",
     "genre": [
       "Action",
-      " Adventure",
-      " Sci-Fi"
+      "Adventure",
+      "Sci-Fi"
     ],
     "imdb_score": 8.8,
     "name": "Star Wars : Episode V - The Empire Strikes Back"
@@ -321,10 +321,10 @@
     "director": "Harry O. Hoyt",
     "genre": [
       "Adventure",
-      " Fantasy",
-      " Horror",
-      " Sci-Fi",
-      " Thriller"
+      "Fantasy",
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 7.1,
     "name": "The Lost World"
@@ -334,8 +334,8 @@
     "director": "Stanley Kubrick",
     "genre": [
       "Crime",
-      " Drama",
-      " Sci-Fi"
+      "Drama",
+      "Sci-Fi"
     ],
     "imdb_score": 8.5,
     "name": "A Clockwork Orange"
@@ -345,8 +345,8 @@
     "director": "James Whale",
     "genre": [
       "Drama",
-      " Horror",
-      " Sci-Fi"
+      "Horror",
+      "Sci-Fi"
     ],
     "imdb_score": 8.0,
     "name": "Frankenstein"
@@ -356,10 +356,10 @@
     "director": "Lisa Simon",
     "genre": [
       "Animation",
-      " Comedy",
-      " Family",
-      " Fantasy",
-      " Music"
+      "Comedy",
+      "Family",
+      "Fantasy",
+      "Music"
     ],
     "imdb_score": 8.5,
     "name": "Sesame Street"
@@ -369,7 +369,7 @@
     "director": "Jean Renoir",
     "genre": [
       "Drama",
-      " War"
+      "War"
     ],
     "imdb_score": 8.2,
     "name": "La grande illusion"
@@ -379,7 +379,7 @@
     "director": "Steven Spielberg",
     "genre": [
       "Action",
-      " Adventure"
+      "Adventure"
     ],
     "imdb_score": 8.7,
     "name": "Raiders of the Lost Ark"
@@ -389,7 +389,7 @@
     "director": "George A. Romero",
     "genre": [
       "Horror",
-      " Mystery"
+      "Mystery"
     ],
     "imdb_score": 8.0,
     "name": "Night of the Living Dead"
@@ -399,9 +399,9 @@
     "director": "Larry Semon",
     "genre": [
       "Comedy",
-      " Family",
-      " Fantasy",
-      " Adventure"
+      "Family",
+      "Fantasy",
+      "Adventure"
     ],
     "imdb_score": 5.3,
     "name": "The Wizard of Oz"
@@ -411,9 +411,9 @@
     "director": "George Lucas",
     "genre": [
       "Drama",
-      " Mystery",
-      " Sci-Fi",
-      " Thriller"
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 6.8,
     "name": "THX 1138"
@@ -423,10 +423,10 @@
     "director": "Steven Spielberg",
     "genre": [
       "Adventure",
-      " Drama",
-      " Family",
-      " Fantasy",
-      " Sci-Fi"
+      "Drama",
+      "Family",
+      "Fantasy",
+      "Sci-Fi"
     ],
     "imdb_score": 7.9,
     "name": "E.T. : The Extra-Terrestrial"
@@ -436,7 +436,7 @@
     "director": "Maurice Tourneur",
     "genre": [
       "Comedy",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 6.9,
     "name": "The Poor Little Rich Girl"
@@ -446,8 +446,8 @@
     "director": "James Parrott",
     "genre": [
       "Short",
-      " Adventure",
-      " Comedy"
+      "Adventure",
+      "Comedy"
     ],
     "imdb_score": 4.6,
     "name": "The Tin Man"
@@ -457,7 +457,7 @@
     "director": "Martin Scorsese",
     "genre": [
       "Drama",
-      " Thriller"
+      "Thriller"
     ],
     "imdb_score": 8.6,
     "name": "Taxi Driver"
@@ -467,7 +467,7 @@
     "director": "Sergio Leone",
     "genre": [
       "Adventure",
-      " Western"
+      "Western"
     ],
     "imdb_score": 9.0,
     "name": "Il buono, il brutto, il cattivo."
@@ -477,8 +477,8 @@
     "director": "D.W. Griffith",
     "genre": [
       "Short",
-      " Action",
-      " Western"
+      "Action",
+      "Western"
     ],
     "imdb_score": 6.6,
     "name": "The Battle at Elderbush Gulch"
@@ -488,8 +488,8 @@
     "director": "Stanley Donen",
     "genre": [
       "Comedy",
-      " Musical",
-      " Romance"
+      "Musical",
+      "Romance"
     ],
     "imdb_score": 8.4,
     "name": "Singin in the Rain"
@@ -499,8 +499,8 @@
     "director": "Elia Kazan",
     "genre": [
       "Crime",
-      " Drama",
-      " Romance"
+      "Drama",
+      "Romance"
     ],
     "imdb_score": 8.4,
     "name": "On the Waterfront"
@@ -510,9 +510,9 @@
     "director": "Clyde Bruckman",
     "genre": [
       "Comedy",
-      " Romance",
-      " War",
-      " Action"
+      "Romance",
+      "War",
+      "Action"
     ],
     "imdb_score": 8.4,
     "name": "The General"
@@ -522,8 +522,8 @@
     "director": "Ivan Reitman",
     "genre": [
       "Adventure",
-      " Fantasy",
-      " Mystery"
+      "Fantasy",
+      "Mystery"
     ],
     "imdb_score": 7.8,
     "name": "Ghost Busters"
@@ -533,8 +533,8 @@
     "director": "W.S. Van Dyke",
     "genre": [
       "Action",
-      " Adventure",
-      " Romance"
+      "Adventure",
+      "Romance"
     ],
     "imdb_score": 7.1,
     "name": "Tarzan the Ape Man"
@@ -544,9 +544,9 @@
     "director": "L. Frank Baum",
     "genre": [
       "Family",
-      " Fantasy",
-      " Adventure",
-      " Comedy"
+      "Fantasy",
+      "Adventure",
+      "Comedy"
     ],
     "imdb_score": 6.0,
     "name": "His Majesty, the Scarecrow of Oz"
@@ -556,10 +556,10 @@
     "director": "John Brahm",
     "genre": [
       "Drama",
-      " Fantasy",
-      " Mystery",
-      " Sci-Fi",
-      " Thriller"
+      "Fantasy",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 9.5,
     "name": "The Twilight Zone"
@@ -569,7 +569,7 @@
     "director": "Edwin S. Porter",
     "genre": [
       "Short",
-      " Western"
+      "Western"
     ],
     "imdb_score": 7.5,
     "name": "The Great Train Robbery"
@@ -579,8 +579,8 @@
     "director": "Guy Hamilton",
     "genre": [
       "Action",
-      " Adventure",
-      " Thriller"
+      "Adventure",
+      "Thriller"
     ],
     "imdb_score": 7.9,
     "name": "Goldfinger"
@@ -590,7 +590,7 @@
     "director": "Federico Fellini",
     "genre": [
       "Comedy",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 8.1,
     "name": "La dolce vita"
@@ -600,9 +600,9 @@
     "director": "Ridley Scott",
     "genre": [
       "Adventure",
-      " Horror",
-      " Sci-Fi",
-      " Thriller"
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 8.5,
     "name": "Alien"
@@ -612,7 +612,7 @@
     "director": "F.W. Murnau",
     "genre": [
       "Fantasy",
-      " Horror"
+      "Horror"
     ],
     "imdb_score": 8.1,
     "name": "Nosferatu, eine Symphonie des Grauens"
@@ -622,7 +622,7 @@
     "director": "Stanley Kubrick",
     "genre": [
       "Horror",
-      " Mystery"
+      "Mystery"
     ],
     "imdb_score": 8.5,
     "name": "The Shining"
@@ -632,7 +632,7 @@
     "director": "Stanley Kubrick",
     "genre": [
       "Comedy",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 8.6,
     "name": "Dr. Strangelove or : How I Learned to Stop Worrying and Love the Bomb"
@@ -642,8 +642,8 @@
     "director": "Brian De Palma",
     "genre": [
       "Crime",
-      " Drama",
-      " Thriller"
+      "Drama",
+      "Thriller"
     ],
     "imdb_score": 8.2,
     "name": "Scarface"
@@ -653,8 +653,8 @@
     "director": "John G. Avildsen",
     "genre": [
       "Drama",
-      " Romance",
-      " Sport"
+      "Romance",
+      "Sport"
     ],
     "imdb_score": 8.1,
     "name": "Rocky"
@@ -664,7 +664,7 @@
     "director": "Mark Kirkland",
     "genre": [
       "Animation",
-      " Comedy"
+      "Comedy"
     ],
     "imdb_score": 9.0,
     "name": "The Simpsons"
@@ -674,7 +674,7 @@
     "director": "Luis Bu1uel",
     "genre": [
       "Short",
-      " Fantasy"
+      "Fantasy"
     ],
     "imdb_score": 8.0,
     "name": "Un chien andalou"
@@ -684,7 +684,7 @@
     "director": "Tod Browning",
     "genre": [
       "Fantasy",
-      " Horror"
+      "Horror"
     ],
     "imdb_score": 7.7,
     "name": "Dracula"
@@ -694,9 +694,9 @@
     "director": "Ted Kotcheff",
     "genre": [
       "Action",
-      " Adventure",
-      " Drama",
-      " Thriller"
+      "Adventure",
+      "Drama",
+      "Thriller"
     ],
     "imdb_score": 7.5,
     "name": "First Blood"
@@ -706,8 +706,8 @@
     "director": "Joseph Barbera",
     "genre": [
       "Animation",
-      " Family",
-      " Comedy"
+      "Family",
+      "Comedy"
     ],
     "imdb_score": 8.0,
     "name": "The Flintstones"
@@ -717,13 +717,13 @@
     "director": "Oscar Rudolph",
     "genre": [
       "Action",
-      " Adventure",
-      " Comedy",
-      " Crime",
-      " Family",
-      " Fantasy",
-      " Mystery",
-      " Sci-Fi"
+      "Adventure",
+      "Comedy",
+      "Crime",
+      "Family",
+      "Fantasy",
+      "Mystery",
+      "Sci-Fi"
     ],
     "imdb_score": 7.7,
     "name": "Batman"
@@ -733,7 +733,7 @@
     "director": "John Ford",
     "genre": [
       "Adventure",
-      " War"
+      "War"
     ],
     "imdb_score": 7.0,
     "name": "The Lost Patrol"
@@ -743,8 +743,8 @@
     "director": "Mervyn LeRoy",
     "genre": [
       "Crime",
-      " Drama",
-      " Film-Noir"
+      "Drama",
+      "Film-Noir"
     ],
     "imdb_score": 8.1,
     "name": "I Am a Fugitive from a Chain Gang"
@@ -754,8 +754,8 @@
     "director": "Robert Zemeckis",
     "genre": [
       "Adventure",
-      " Family",
-      " Sci-Fi"
+      "Family",
+      "Sci-Fi"
     ],
     "imdb_score": 8.4,
     "name": "Back to the Future"
@@ -765,8 +765,8 @@
     "director": "John Boorman",
     "genre": [
       "Adventure",
-      " Drama",
-      " Thriller"
+      "Drama",
+      "Thriller"
     ],
     "imdb_score": 7.9,
     "name": "Deliverance"
@@ -776,8 +776,8 @@
     "director": "Alfred Hitchcock",
     "genre": [
       "Mystery",
-      " Romance",
-      " Thriller"
+      "Romance",
+      "Thriller"
     ],
     "imdb_score": 8.4,
     "name": "Rebecca"
@@ -787,8 +787,8 @@
     "director": "Edward F. Cline",
     "genre": [
       "Comedy",
-      " Short",
-      " Family"
+      "Short",
+      "Family"
     ],
     "imdb_score": 8.0,
     "name": "The Scarecrow"
@@ -798,8 +798,8 @@
     "director": "Tobe Hooper",
     "genre": [
       "Horror",
-      " Mystery",
-      " Thriller"
+      "Mystery",
+      "Thriller"
     ],
     "imdb_score": 7.5,
     "name": "The Texas Chain Saw Massacre"
@@ -809,8 +809,8 @@
     "director": "David Lean",
     "genre": [
       "Adventure",
-      " Drama",
-      " War"
+      "Drama",
+      "War"
     ],
     "imdb_score": 8.4,
     "name": "The Bridge on the River Kwai"
@@ -820,8 +820,8 @@
     "director": "Frank Capra",
     "genre": [
       "Drama",
-      " Fantasy",
-      " Romance"
+      "Fantasy",
+      "Romance"
     ],
     "imdb_score": 8.7,
     "name": "Its a Wonderful Life"
@@ -840,8 +840,8 @@
     "director": "Don Siegel",
     "genre": [
       "Action",
-      " Crime",
-      " Thriller"
+      "Crime",
+      "Thriller"
     ],
     "imdb_score": 7.9,
     "name": "Dirty Harry"
@@ -851,9 +851,9 @@
     "director": "George Cukor",
     "genre": [
       "Drama",
-      " Family",
-      " Musical",
-      " Romance"
+      "Family",
+      "Musical",
+      "Romance"
     ],
     "imdb_score": 7.9,
     "name": "My Fair Lady"
@@ -863,8 +863,8 @@
     "director": "Samuel Armstrong",
     "genre": [
       "Animation",
-      " Family",
-      " Musical"
+      "Family",
+      "Musical"
     ],
     "imdb_score": 7.5,
     "name": "Dumbo"
@@ -874,8 +874,8 @@
     "director": "Alfred Hitchcock",
     "genre": [
       "Horror",
-      " Romance",
-      " Thriller"
+      "Romance",
+      "Thriller"
     ],
     "imdb_score": 7.9,
     "name": "The Birds"
@@ -885,8 +885,8 @@
     "director": "James W. Horne",
     "genre": [
       "Comedy",
-      " Drama",
-      " Sport"
+      "Drama",
+      "Sport"
     ],
     "imdb_score": 7.2,
     "name": "College"
@@ -896,8 +896,8 @@
     "director": "James Cameron",
     "genre": [
       "Drama",
-      " History",
-      " Romance"
+      "History",
+      "Romance"
     ],
     "imdb_score": 7.4,
     "name": "Titanic"
@@ -907,10 +907,10 @@
     "director": "William Wyler",
     "genre": [
       "Action",
-      " Adventure",
-      " Drama",
-      " History",
-      " Romance"
+      "Adventure",
+      "Drama",
+      "History",
+      "Romance"
     ],
     "imdb_score": 8.2,
     "name": "Ben-Hur"
@@ -920,7 +920,7 @@
     "director": "Quentin Tarantino",
     "genre": [
       "Crime",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 9.0,
     "name": "Pulp Fiction"
@@ -930,9 +930,9 @@
     "director": "Alfred Hitchcock",
     "genre": [
       "Crime",
-      " Mystery",
-      " Romance",
-      " Thriller"
+      "Mystery",
+      "Romance",
+      "Thriller"
     ],
     "imdb_score": 8.7,
     "name": "Rear Window"
@@ -942,8 +942,8 @@
     "director": "James Cameron",
     "genre": [
       "Action",
-      " Sci-Fi",
-      " Thriller"
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 8.5,
     "name": "Aliens"
@@ -953,8 +953,8 @@
     "director": "John Cromwell",
     "genre": [
       "Drama",
-      " Mystery",
-      " Romance"
+      "Mystery",
+      "Romance"
     ],
     "imdb_score": 7.0,
     "name": "Algiers"
@@ -973,7 +973,7 @@
     "director": "Jonathan Demme",
     "genre": [
       "Crime",
-      " Thriller"
+      "Thriller"
     ],
     "imdb_score": 8.7,
     "name": "The Silence of the Lambs"
@@ -983,9 +983,9 @@
     "director": "Charles Chaplin",
     "genre": [
       "Comedy",
-      " Family",
-      " Drama",
-      " Romance"
+      "Family",
+      "Drama",
+      "Romance"
     ],
     "imdb_score": 7.9,
     "name": "The Circus"
@@ -995,9 +995,9 @@
     "director": "Kim Manners",
     "genre": [
       "Drama",
-      " Mystery",
-      " Sci-Fi",
-      " Thriller"
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 9.0,
     "name": "The X Files"
@@ -1007,8 +1007,8 @@
     "director": "James Cameron",
     "genre": [
       "Action",
-      " Sci-Fi",
-      " Thriller"
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 8.5,
     "name": "Terminator 2 : Judgment Day"
@@ -1027,8 +1027,8 @@
     "director": "Mike Nichols",
     "genre": [
       "Comedy",
-      " Drama",
-      " Romance"
+      "Drama",
+      "Romance"
     ],
     "imdb_score": 8.2,
     "name": "The Graduate"
@@ -1038,7 +1038,7 @@
     "director": "Henry Lehrman",
     "genre": [
       "Comedy",
-      " Short"
+      "Short"
     ],
     "imdb_score": 5.5,
     "name": "The Bangville Police"
@@ -1048,8 +1048,8 @@
     "director": "Andy Wachowski",
     "genre": [
       "Action",
-      " Adventure",
-      " Sci-Fi"
+      "Adventure",
+      "Sci-Fi"
     ],
     "imdb_score": 8.7,
     "name": "The Matrix"
@@ -1059,7 +1059,7 @@
     "director": "Oscar Rudolph",
     "genre": [
       "Comedy",
-      " Family"
+      "Family"
     ],
     "imdb_score": 7.0,
     "name": "The Brady Bunch"
@@ -1069,10 +1069,10 @@
     "director": "David Lean",
     "genre": [
       "Adventure",
-      " Biography",
-      " Drama",
-      " History",
-      " War"
+      "Biography",
+      "Drama",
+      "History",
+      "War"
     ],
     "imdb_score": 8.5,
     "name": "Lawrence of Arabia"
@@ -1082,7 +1082,7 @@
     "director": "Wes Craven",
     "genre": [
       "Horror",
-      " Mystery"
+      "Mystery"
     ],
     "imdb_score": 7.4,
     "name": "A Nightmare on Elm Street"
@@ -1092,7 +1092,7 @@
     "director": "George Schaefer",
     "genre": [
       "Comedy",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 7.8,
     "name": "Pygmalion"
@@ -1102,10 +1102,10 @@
     "director": "Alfred Hitchcock",
     "genre": [
       "Adventure",
-      " Drama",
-      " Mystery",
-      " Romance",
-      " Thriller"
+      "Drama",
+      "Mystery",
+      "Romance",
+      "Thriller"
     ],
     "imdb_score": 8.6,
     "name": "North by Northwest"
@@ -1115,19 +1115,19 @@
     "director": "Robert Wise",
     "genre": [
       "Biography",
-      " Drama",
-      " Family",
-      " Musical"
+      "Drama",
+      "Family",
+      "Musical"
     ],
     "imdb_score": 7.9,
-    "name": "The Sound of Music"
+    "name": "The Sound ofMusic"
   },
   {
     "99popularity": 78.0,
     "director": "Jack Arnold",
     "genre": [
       "Comedy",
-      " Family"
+      "Family"
     ],
     "imdb_score": 7.8,
     "name": "Gilligans Island"
@@ -1137,8 +1137,8 @@
     "director": "James Algar",
     "genre": [
       "Animation",
-      " Drama",
-      " Family"
+      "Drama",
+      "Family"
     ],
     "imdb_score": 7.6,
     "name": "Bambi"
@@ -1148,9 +1148,9 @@
     "director": "Jerome Robbins",
     "genre": [
       "Crime",
-      " Drama",
-      " Musical",
-      " Romance"
+      "Drama",
+      "Musical",
+      "Romance"
     ],
     "imdb_score": 7.8,
     "name": "West Side Story"
@@ -1160,8 +1160,8 @@
     "director": "Fred Zinnemann",
     "genre": [
       "Drama",
-      " Romance",
-      " War"
+      "Romance",
+      "War"
     ],
     "imdb_score": 7.9,
     "name": "From Here to Eternity"
@@ -1171,7 +1171,7 @@
     "director": "John Carpenter",
     "genre": [
       "Horror",
-      " Thriller"
+      "Thriller"
     ],
     "imdb_score": 7.9,
     "name": "Halloween"
@@ -1181,7 +1181,7 @@
     "director": "William Asher",
     "genre": [
       "Comedy",
-      " Family"
+      "Family"
     ],
     "imdb_score": 9.0,
     "name": "I Love Lucy"
@@ -1191,7 +1191,7 @@
     "director": "Karl Freund",
     "genre": [
       "Romance",
-      " Horror"
+      "Horror"
     ],
     "imdb_score": 7.4,
     "name": "Mad Love"
@@ -1201,8 +1201,8 @@
     "director": "Ridley Scott",
     "genre": [
       "Drama",
-      " Sci-Fi",
-      " Thriller"
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 8.3,
     "name": "Blade Runner"
@@ -1212,9 +1212,9 @@
     "director": "Robert Stevenson",
     "genre": [
       "Comedy",
-      " Family",
-      " Fantasy",
-      " Musical"
+      "Family",
+      "Fantasy",
+      "Musical"
     ],
     "imdb_score": 7.7,
     "name": "Mary Poppins"
@@ -1224,9 +1224,9 @@
     "director": "Richard Marquand",
     "genre": [
       "Action",
-      " Adventure",
-      " Fantasy",
-      " Sci-Fi"
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
     ],
     "imdb_score": 8.3,
     "name": "Star Wars : Episode VI - Return of the Jedi"
@@ -1236,7 +1236,7 @@
     "director": "Steven Spielberg",
     "genre": [
       "Drama",
-      " Sci-Fi"
+      "Sci-Fi"
     ],
     "imdb_score": 7.8,
     "name": "Close Encounters of the Third Kind"
@@ -1246,7 +1246,7 @@
     "director": "Akira Kurosawa",
     "genre": [
       "Adventure",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 8.8,
     "name": "Shichinin no samurai"
@@ -1256,7 +1256,7 @@
     "director": "James Whale",
     "genre": [
       "Horror",
-      " Sci-Fi"
+      "Sci-Fi"
     ],
     "imdb_score": 8.0,
     "name": "Bride of Frankenstein"
@@ -1266,9 +1266,9 @@
     "director": "John Huston",
     "genre": [
       "Adventure",
-      " Drama",
-      " Western",
-      " Action"
+      "Drama",
+      "Western",
+      "Action"
     ],
     "imdb_score": 8.5,
     "name": "The Treasure of the Sierra Madre"
@@ -1278,8 +1278,8 @@
     "director": "Phil Karlson",
     "genre": [
       "Drama",
-      " Crime",
-      " Film-Noir"
+      "Crime",
+      "Film-Noir"
     ],
     "imdb_score": 6.0,
     "name": "5 Against the House"
@@ -1289,8 +1289,8 @@
     "director": "Akira Kurosawa",
     "genre": [
       "Drama",
-      " History",
-      " War"
+      "History",
+      "War"
     ],
     "imdb_score": 7.9,
     "name": "Kagemusha"
@@ -1300,7 +1300,7 @@
     "director": "D.W. Griffith",
     "genre": [
       "Short",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 4.7,
     "name": "His Trust Fulfilled"
@@ -1310,8 +1310,8 @@
     "director": "D.W. Griffith",
     "genre": [
       "Short",
-      " Drama",
-      " War"
+      "Drama",
+      "War"
     ],
     "imdb_score": 5.3,
     "name": "His Trust"
@@ -1321,9 +1321,9 @@
     "director": "Ishirccab Honda",
     "genre": [
       "Drama",
-      " Horror",
-      " Sci-Fi",
-      " Thriller"
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 7.3,
     "name": "Gojira"
@@ -1333,10 +1333,10 @@
     "director": "Stanley Kubrick",
     "genre": [
       "Action",
-      " Adventure",
-      " Biography",
-      " Drama",
-      " History"
+      "Adventure",
+      "Biography",
+      "Drama",
+      "History"
     ],
     "imdb_score": 8.0,
     "name": "Spartacus"
@@ -1346,7 +1346,7 @@
     "director": "Winsor McCay",
     "genre": [
       "Animation",
-      " Short"
+      "Short"
     ],
     "imdb_score": 7.1,
     "name": "Dreams of the Rarebit Fiend : The Pet"
@@ -1356,8 +1356,8 @@
     "director": "John Huston",
     "genre": [
       "Crime",
-      " Film-Noir",
-      " Mystery"
+      "Film-Noir",
+      "Mystery"
     ],
     "imdb_score": 8.4,
     "name": "The Maltese Falcon"
@@ -1367,8 +1367,8 @@
     "director": "Franklin J. Schaffner",
     "genre": [
       "Adventure",
-      " Mystery",
-      " Sci-Fi"
+      "Mystery",
+      "Sci-Fi"
     ],
     "imdb_score": 8.0,
     "name": "Planet of the Apes"
@@ -1378,8 +1378,8 @@
     "director": "Frank Lloyd",
     "genre": [
       "Adventure",
-      " Drama",
-      " Romance"
+      "Drama",
+      "Romance"
     ],
     "imdb_score": 7.2,
     "name": "The Sea Hawk"
@@ -1389,19 +1389,19 @@
     "director": "Lewis Milestone",
     "genre": [
       "Action",
-      " Drama",
-      " History",
-      " War"
+      "Drama",
+      "History",
+      "War"
     ],
     "imdb_score": 8.2,
-    "name": "All Quiet on the Western Front"
+    "name": "All Quiet on theWestern Front"
   },
   {
     "99popularity": 74.0,
     "director": "Carl Boese",
     "genre": [
       "Fantasy",
-      " Horror"
+      "Horror"
     ],
     "imdb_score": 7.4,
     "name": "Der Golem, wie er in die Welt kam"
@@ -1411,9 +1411,9 @@
     "director": "Gordon Douglas",
     "genre": [
       "Action",
-      " Adventure",
-      " Comedy",
-      " Sci-Fi"
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
     ],
     "imdb_score": 5.9,
     "name": "In Like Flint"
@@ -1423,7 +1423,7 @@
     "director": "Leo McCarey",
     "genre": [
       "Drama",
-      " Family"
+      "Family"
     ],
     "imdb_score": 7.4,
     "name": "The Bells of St. Marys"
@@ -1433,7 +1433,7 @@
     "director": "Steven Spielberg",
     "genre": [
       "Mystery",
-      " Thriller"
+      "Thriller"
     ],
     "imdb_score": 7.7,
     "name": "Duel"
@@ -1452,8 +1452,8 @@
     "director": "Fred Zinnemann",
     "genre": [
       "Musical",
-      " Romance",
-      " Western"
+      "Romance",
+      "Western"
     ],
     "imdb_score": 7.1,
     "name": "Oklahoma!"
@@ -1472,9 +1472,9 @@
     "director": "Steven Spielberg",
     "genre": [
       "Action",
-      " Adventure",
-      " Family",
-      " Sci-Fi"
+      "Adventure",
+      "Family",
+      "Sci-Fi"
     ],
     "imdb_score": 7.9,
     "name": "Jurassic Park"
@@ -1484,9 +1484,9 @@
     "director": "John Ford",
     "genre": [
       "Action",
-      " Drama",
-      " Romance",
-      " Western"
+      "Drama",
+      "Romance",
+      "Western"
     ],
     "imdb_score": 7.9,
     "name": "Stagecoach"
@@ -1496,8 +1496,8 @@
     "director": "Stanley Kubrick",
     "genre": [
       "Crime",
-      " Drama",
-      " War"
+      "Drama",
+      "War"
     ],
     "imdb_score": 8.6,
     "name": "Paths of Glory"
@@ -1507,8 +1507,8 @@
     "director": "Jerry Paris",
     "genre": [
       "Comedy",
-      " Family",
-      " Music"
+      "Family",
+      "Music"
     ],
     "imdb_score": 7.7,
     "name": "Happy Days"
@@ -1518,8 +1518,8 @@
     "director": "John Badham",
     "genre": [
       "Drama",
-      " Music",
-      " Romance"
+      "Music",
+      "Romance"
     ],
     "imdb_score": 6.8,
     "name": "Saturday Night Fever"
@@ -1529,7 +1529,7 @@
     "director": "George Cukor",
     "genre": [
       "Comedy",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 8.1,
     "name": "The Philadelphia Story"
@@ -1539,7 +1539,7 @@
     "director": "Federico Fellini",
     "genre": [
       "Drama",
-      " Fantasy"
+      "Fantasy"
     ],
     "imdb_score": 8.2,
     "name": "8xe5"
@@ -1549,8 +1549,8 @@
     "director": "Douglas Camfield",
     "genre": [
       "Adventure",
-      " Drama",
-      " Sci-Fi"
+      "Drama",
+      "Sci-Fi"
     ],
     "imdb_score": 8.6,
     "name": "Doctor Who"
@@ -1560,7 +1560,7 @@
     "director": "Fritz Lang",
     "genre": [
       "Crime",
-      " Thriller"
+      "Thriller"
     ],
     "imdb_score": 8.6,
     "name": "M"
@@ -1570,7 +1570,7 @@
     "director": "John Huston",
     "genre": [
       "Adventure",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 7.4,
     "name": "Moby Dick"
@@ -1580,7 +1580,7 @@
     "director": "Brian De Palma",
     "genre": [
       "Horror",
-      " Thriller"
+      "Thriller"
     ],
     "imdb_score": 7.4,
     "name": "Carrie"
@@ -1590,7 +1590,7 @@
     "director": "Nicholas Ray",
     "genre": [
       "Drama",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 7.9,
     "name": "Rebel Without a Cause"
@@ -1600,9 +1600,9 @@
     "director": "Richard Donner",
     "genre": [
       "Action",
-      " Adventure",
-      " Family",
-      " Sci-Fi"
+      "Adventure",
+      "Family",
+      "Sci-Fi"
     ],
     "imdb_score": 7.3,
     "name": "Superman"
@@ -1612,8 +1612,8 @@
     "director": "Peter Harris",
     "genre": [
       "Comedy",
-      " Family",
-      " Music"
+      "Family",
+      "Music"
     ],
     "imdb_score": 8.8,
     "name": "The Muppet Show"
@@ -1623,10 +1623,10 @@
     "director": "Norman Ferguson",
     "genre": [
       "Animation",
-      " Drama",
-      " Family",
-      " Fantasy",
-      " Music"
+      "Drama",
+      "Family",
+      "Fantasy",
+      "Music"
     ],
     "imdb_score": 7.7,
     "name": "Pinocchio"
@@ -1645,10 +1645,10 @@
     "director": "Joseph Barbera",
     "genre": [
       "Animation",
-      " Family",
-      " Mystery",
-      " Comedy",
-      " Adventure"
+      "Family",
+      "Mystery",
+      "Comedy",
+      "Adventure"
     ],
     "imdb_score": 8.1,
     "name": "Scooby Doo, Where Are You!"
@@ -1658,7 +1658,7 @@
     "director": "Joy Batchelor",
     "genre": [
       "Animation",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 7.1,
     "name": "Animal Farm"
@@ -1668,9 +1668,9 @@
     "director": "Ray Enright",
     "genre": [
       "Comedy",
-      " Music",
-      " Romance",
-      " Sport"
+      "Music",
+      "Romance",
+      "Sport"
     ],
     "imdb_score": 4.8,
     "name": "Swing Your Lady"
@@ -1680,7 +1680,7 @@
     "director": "George Stevens",
     "genre": [
       "Drama",
-      " Western"
+      "Western"
     ],
     "imdb_score": 7.8,
     "name": "Shane"
@@ -1690,8 +1690,8 @@
     "director": "John G. Avildsen",
     "genre": [
       "Drama",
-      " Family",
-      " Sport"
+      "Family",
+      "Sport"
     ],
     "imdb_score": 6.9,
     "name": "The Karate Kid"
@@ -1710,7 +1710,7 @@
     "director": "Norman Tokar",
     "genre": [
       "Comedy",
-      " Family"
+      "Family"
     ],
     "imdb_score": 8.2,
     "name": "Leave It to Beaver"
@@ -1720,9 +1720,9 @@
     "director": "Arthur Penn",
     "genre": [
       "Biography",
-      " Crime",
-      " Drama",
-      " Romance"
+      "Crime",
+      "Drama",
+      "Romance"
     ],
     "imdb_score": 8.0,
     "name": "Bonnie and Clyde"
@@ -1741,7 +1741,7 @@
     "director": "Dave Wilson",
     "genre": [
       "Comedy",
-      " Music"
+      "Music"
     ],
     "imdb_score": 8.1,
     "name": "Saturday Night Live"
@@ -1760,7 +1760,7 @@
     "director": "F.W. Murnau",
     "genre": [
       "Drama",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 8.4,
     "name": "Sunrise : A Song of Two Humans"
@@ -1770,10 +1770,10 @@
     "director": "Roger Allers",
     "genre": [
       "Animation",
-      " Adventure",
-      " Drama",
-      " Family",
-      " Musical"
+      "Adventure",
+      "Drama",
+      "Family",
+      "Musical"
     ],
     "imdb_score": 8.2,
     "name": "The Lion King"
@@ -1783,9 +1783,9 @@
     "director": "Walt Disney",
     "genre": [
       "Animation",
-      " Family",
-      " Comedy",
-      " Short"
+      "Family",
+      "Comedy",
+      "Short"
     ],
     "imdb_score": 7.5,
     "name": "Plane Crazy"
@@ -1805,7 +1805,7 @@
     "director": "Stanley Kubrick",
     "genre": [
       "Drama",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 7.7,
     "name": "Lolita"
@@ -1815,8 +1815,8 @@
     "director": "John McTiernan",
     "genre": [
       "Action",
-      " Crime",
-      " Thriller"
+      "Crime",
+      "Thriller"
     ],
     "imdb_score": 8.3,
     "name": "Die Hard"
@@ -1826,10 +1826,10 @@
     "director": "Otto Preminger",
     "genre": [
       "Crime",
-      " Film-Noir",
-      " Mystery",
-      " Romance",
-      " Thriller"
+      "Film-Noir",
+      "Mystery",
+      "Romance",
+      "Thriller"
     ],
     "imdb_score": 8.2,
     "name": "Laura"
@@ -1839,7 +1839,7 @@
     "director": "Dennis Hopper",
     "genre": [
       "Crime",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 7.3,
     "name": "Easy Rider"
@@ -1849,8 +1849,8 @@
     "director": "Don Siegel",
     "genre": [
       "Horror",
-      " Sci-Fi",
-      " Thriller"
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 8.0,
     "name": "Invasion of the Body Snatchers"
@@ -1860,8 +1860,8 @@
     "director": "Alain Resnais",
     "genre": [
       "Drama",
-      " Mystery",
-      " Romance"
+      "Mystery",
+      "Romance"
     ],
     "imdb_score": 7.8,
     "name": "Lanncca9e derniccacre ccca Marienbad"
@@ -1871,7 +1871,7 @@
     "director": "Walter Grauman",
     "genre": [
       "Drama",
-      " Thriller"
+      "Thriller"
     ],
     "imdb_score": 6.8,
     "name": "Lady in a Cage"
@@ -1890,7 +1890,7 @@
     "director": "Bobby Quinn",
     "genre": [
       "Comedy",
-      " Music",
+      "Music",
       " Talk-Show"
     ],
     "imdb_score": 8.3,
@@ -1901,8 +1901,8 @@
     "director": "Tony Scott",
     "genre": [
       "Action",
-      " Drama",
-      " Romance"
+      "Drama",
+      "Romance"
     ],
     "imdb_score": 6.6,
     "name": "Top Gun"
@@ -1912,9 +1912,9 @@
     "director": "Lewis Gilbert",
     "genre": [
       "Action",
-      " Adventure",
-      " Sci-Fi",
-      " Thriller"
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 6.9,
     "name": "You Only Live Twice"
@@ -1924,9 +1924,9 @@
     "director": "Terence Young",
     "genre": [
       "Action",
-      " Adventure",
-      " Romance",
-      " Thriller"
+      "Adventure",
+      "Romance",
+      "Thriller"
     ],
     "imdb_score": 7.5,
     "name": "From Russia with Love"
@@ -1936,8 +1936,8 @@
     "director": "Hollingsworth Morse",
     "genre": [
       "Adventure",
-      " Western",
-      " Family"
+      "Western",
+      "Family"
     ],
     "imdb_score": 8.1,
     "name": "The Lone Ranger"
@@ -1947,7 +1947,7 @@
     "director": "Gerard Damiano",
     "genre": [
       "Adult",
-      " Comedy"
+      "Comedy"
     ],
     "imdb_score": 5.2,
     "name": "Deep Throat"
@@ -1957,7 +1957,7 @@
     "director": "Samuel Fuller",
     "genre": [
       "Drama",
-      " Mystery"
+      "Mystery"
     ],
     "imdb_score": 7.6,
     "name": "Shock Corridor"
@@ -1967,9 +1967,9 @@
     "director": "Robert Clouse",
     "genre": [
       "Action",
-      " Crime",
-      " Drama",
-      " Thriller"
+      "Crime",
+      "Drama",
+      "Thriller"
     ],
     "imdb_score": 7.6,
     "name": "Enter the Dragon"
@@ -1979,8 +1979,8 @@
     "director": "John Sturges",
     "genre": [
       "Western",
-      " Adventure",
-      " Drama"
+      "Adventure",
+      "Drama"
     ],
     "imdb_score": 7.8,
     "name": "The Magnificent Seven"
@@ -1990,7 +1990,7 @@
     "director": "Josef von Sternberg",
     "genre": [
       "Crime",
-      " Drama"
+      "Drama"
     ],
     "imdb_score": 7.7,
     "name": "Underworld"
@@ -2009,7 +2009,7 @@
     "director": "Edouard Molinaro",
     "genre": [
       "Drama",
-      " Thriller"
+      "Thriller"
     ],
     "imdb_score": 6.7,
     "name": "Un dans la ville"
@@ -2019,8 +2019,8 @@
     "director": "Tim Burton",
     "genre": [
       "Crime",
-      " Drama",
-      " Thriller"
+      "Drama",
+      "Thriller"
     ],
     "imdb_score": 7.6,
     "name": "Batman"
@@ -2030,10 +2030,10 @@
     "director": "Clyde Geronimi",
     "genre": [
       "Animation",
-      " Family",
-      " Fantasy",
-      " Musical",
-      " Romance"
+      "Family",
+      "Fantasy",
+      "Musical",
+      "Romance"
     ],
     "imdb_score": 7.4,
     "name": "Cinderella"
@@ -2043,9 +2043,9 @@
     "director": "Lee Sholem",
     "genre": [
       "Action",
-      " Adventure",
-      " Fantasy",
-      " Romance"
+      "Adventure",
+      "Fantasy",
+      "Romance"
     ],
     "imdb_score": 5.5,
     "name": "Tarzans Magic Fountain"
@@ -2055,7 +2055,7 @@
     "director": "Fred Zinnemann",
     "genre": [
       "Drama",
-      " Western"
+      "Western"
     ],
     "imdb_score": 8.3,
     "name": "High Noon"
@@ -2065,7 +2065,7 @@
     "director": "Leni Riefenstahl",
     "genre": [
       "Documentary",
-      " War"
+      "War"
     ],
     "imdb_score": 7.7,
     "name": "Triumph des Willens"
@@ -2084,7 +2084,7 @@
     "director": "Randal Kleiser",
     "genre": [
       "Musical",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 7.0,
     "name": "Grease"
@@ -2094,8 +2094,8 @@
     "director": "D.W. Griffith",
     "genre": [
       "Drama",
-      " History",
-      " Romance"
+      "History",
+      "Romance"
     ],
     "imdb_score": 8.1,
     "name": "Intolerance : Loves Struggle Throughout the Ages"
@@ -2105,8 +2105,8 @@
     "director": "Quentin Tarantino",
     "genre": [
       "Crime",
-      " Mystery",
-      " Thriller"
+      "Mystery",
+      "Thriller"
     ],
     "imdb_score": 8.4,
     "name": "Reservoir Dogs"
@@ -2116,7 +2116,7 @@
     "director": "George Stevens",
     "genre": [
       "Drama",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 7.8,
     "name": "A Place in the Sun"
@@ -2126,8 +2126,8 @@
     "director": "Carol Reed",
     "genre": [
       "Film-Noir",
-      " Mystery",
-      " Thriller"
+      "Mystery",
+      "Thriller"
     ],
     "imdb_score": 8.5,
     "name": "The Third Man"
@@ -2137,10 +2137,10 @@
     "director": "Charles Chaplin",
     "genre": [
       "Adventure",
-      " Comedy",
-      " Family",
-      " Romance",
-      " Western"
+      "Comedy",
+      "Family",
+      "Romance",
+      "Western"
     ],
     "imdb_score": 8.3,
     "name": "The Gold Rush"
@@ -2150,8 +2150,8 @@
     "director": "Cecil B. DeMille",
     "genre": [
       "Adventure",
-      " Drama",
-      " History"
+      "Drama",
+      "History"
     ],
     "imdb_score": 7.9,
     "name": "The Ten Commandments"
@@ -2161,7 +2161,7 @@
     "director": "John Ford",
     "genre": [
       "Drama",
-      " Western"
+      "Western"
     ],
     "imdb_score": 7.9,
     "name": "My Darling Clementine"
@@ -2171,7 +2171,7 @@
     "director": "Billy Wilder",
     "genre": [
       "Drama",
-      " Film-Noir"
+      "Film-Noir"
     ],
     "imdb_score": 8.7,
     "name": "Sunset Blvd."
@@ -2181,8 +2181,8 @@
     "director": "Sean S. Cunningham",
     "genre": [
       "Horror",
-      " Mystery",
-      " Thriller"
+      "Mystery",
+      "Thriller"
     ],
     "imdb_score": 6.3,
     "name": "Friday the 13th"
@@ -2192,9 +2192,9 @@
     "director": "John Sturges",
     "genre": [
       "Adventure",
-      " Drama",
-      " History",
-      " War"
+      "Drama",
+      "History",
+      "War"
     ],
     "imdb_score": 8.3,
     "name": "The Great Escape"
@@ -2204,9 +2204,9 @@
     "director": "Clint Eastwood",
     "genre": [
       "Crime",
-      " Drama",
-      " Romance",
-      " Thriller"
+      "Drama",
+      "Romance",
+      "Thriller"
     ],
     "imdb_score": 7.0,
     "name": "Play Misty for Me"
@@ -2216,9 +2216,9 @@
     "director": "Cameron Crowe",
     "genre": [
       "Comedy",
-      " Drama",
-      " Romance",
-      " Sport"
+      "Drama",
+      "Romance",
+      "Sport"
     ],
     "imdb_score": 7.3,
     "name": "Jerry Maguire"
@@ -2228,8 +2228,8 @@
     "director": "Bretaigne Windust",
     "genre": [
       "Drama",
-      " Crime",
-      " Film-Noir"
+      "Crime",
+      "Film-Noir"
     ],
     "imdb_score": 7.3,
     "name": "The Enforcer"
@@ -2239,7 +2239,7 @@
     "director": "Richard Fleischer",
     "genre": [
       "Adventure",
-      " Sci-Fi"
+      "Sci-Fi"
     ],
     "imdb_score": 6.8,
     "name": "Fantastic Voyage"
@@ -2249,9 +2249,9 @@
     "director": "George Roy Hill",
     "genre": [
       "Adventure",
-      " Crime",
-      " Drama",
-      " Western"
+      "Crime",
+      "Drama",
+      "Western"
     ],
     "imdb_score": 8.2,
     "name": "Butch Cassidy and the Sundance Kid"
@@ -2261,7 +2261,7 @@
     "director": "Bob Sweeney",
     "genre": [
       "Comedy",
-      " Family"
+      "Family"
     ],
     "imdb_score": 8.6,
     "name": "The Andy Griffith Show"
@@ -2271,9 +2271,9 @@
     "director": "John Landis",
     "genre": [
       "Action",
-      " Comedy",
-      " Music",
-      " Musical"
+      "Comedy",
+      "Music",
+      "Musical"
     ],
     "imdb_score": 7.9,
     "name": "The Blues Brothers"
@@ -2283,7 +2283,7 @@
     "director": "Robert Zemeckis",
     "genre": [
       "Drama",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 8.6,
     "name": "Forrest Gump"
@@ -2302,7 +2302,7 @@
     "director": "Bruce Gowers",
     "genre": [
       "Game-Show",
-      " Music",
+      "Music",
       " Reality-TV"
     ],
     "imdb_score": 4.8,
@@ -2313,8 +2313,8 @@
     "director": "David Fincher",
     "genre": [
       "Drama",
-      " Mystery",
-      " Thriller"
+      "Mystery",
+      "Thriller"
     ],
     "imdb_score": 8.8,
     "name": "Fight Club"
@@ -2324,7 +2324,7 @@
     "director": "Jack Arnold",
     "genre": [
       "Horror",
-      " Sci-Fi"
+      "Sci-Fi"
     ],
     "imdb_score": 5.1,
     "name": "Revenge of the Creature"
@@ -2334,8 +2334,8 @@
     "director": "Roman Polanski",
     "genre": [
       "Drama",
-      " Mystery",
-      " Thriller"
+      "Mystery",
+      "Thriller"
     ],
     "imdb_score": 8.5,
     "name": "Chinatown"
@@ -2345,7 +2345,7 @@
     "director": "Sam Peckinpah",
     "genre": [
       "Action",
-      " Western"
+      "Western"
     ],
     "imdb_score": 8.1,
     "name": "The Wild Bunch"
@@ -2355,8 +2355,8 @@
     "director": "Peter Jackson",
     "genre": [
       "Action",
-      " Adventure",
-      " Fantasy"
+      "Adventure",
+      "Fantasy"
     ],
     "imdb_score": 8.8,
     "name": "The Lord of the Rings : The Fellowship of the Ring"
@@ -2366,8 +2366,8 @@
     "director": "Frank Lloyd",
     "genre": [
       "Adventure",
-      " Drama",
-      " History"
+      "Drama",
+      "History"
     ],
     "imdb_score": 7.9,
     "name": "Mutiny on the Bounty"
@@ -2377,7 +2377,7 @@
     "director": "Luis el",
     "genre": [
       "Drama",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 7.8,
     "name": "El"
@@ -2387,7 +2387,7 @@
     "director": "Stanley Kubrick",
     "genre": [
       "Drama",
-      " War"
+      "War"
     ],
     "imdb_score": 8.4,
     "name": "Full Metal Jacket"
@@ -2397,10 +2397,10 @@
     "director": "Stanley Kramer",
     "genre": [
       "Action",
-      " Adventure",
-      " Drama",
-      " Romance",
-      " War"
+      "Adventure",
+      "Drama",
+      "Romance",
+      "War"
     ],
     "imdb_score": 5.5,
     "name": "The Pride and the Passion"
@@ -2410,7 +2410,7 @@
     "director": "Rob Reiner",
     "genre": [
       "Comedy",
-      " Music"
+      "Music"
     ],
     "imdb_score": 8.0,
     "name": "This Is Spinal Tap"
@@ -2429,8 +2429,8 @@
     "director": "Cliff Bole",
     "genre": [
       "Action",
-      " Adventure",
-      " Sci-Fi"
+      "Adventure",
+      "Sci-Fi"
     ],
     "imdb_score": 8.8,
     "name": "Star Trek : The Next Generation"
@@ -2440,8 +2440,8 @@
     "director": "Charles S. Dubin",
     "genre": [
       "Crime",
-      " Drama",
-      " Mystery"
+      "Drama",
+      "Mystery"
     ],
     "imdb_score": 7.3,
     "name": "Kojak"
@@ -2451,7 +2451,7 @@
     "director": "Yevgeni Bauer",
     "genre": [
       "Drama",
-      " Short"
+      "Short"
     ],
     "imdb_score": 7.4,
     "name": "Gryozy"
@@ -2461,8 +2461,8 @@
     "director": "Gregory J. Bonann",
     "genre": [
       "Drama",
-      " Action",
-      " Adventure"
+      "Action",
+      "Adventure"
     ],
     "imdb_score": 4.9,
     "name": "Baywatch"
@@ -2472,13 +2472,13 @@
     "director": "Gerald Potterton",
     "genre": [
       "Animation",
-      " Action",
-      " Adventure",
-      " Comedy",
-      " Crime",
-      " Fantasy",
-      " Horror",
-      " Sci-Fi"
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Crime",
+      "Fantasy",
+      "Horror",
+      "Sci-Fi"
     ],
     "imdb_score": 6.4,
     "name": "Heavy Metal"
@@ -2488,8 +2488,8 @@
     "director": "Robert Wise",
     "genre": [
       "Drama",
-      " Sci-Fi",
-      " Thriller"
+      "Sci-Fi",
+      "Thriller"
     ],
     "imdb_score": 8.0,
     "name": "The Day the Earth Stood Still"
@@ -2499,10 +2499,10 @@
     "director": "Burt Gillett",
     "genre": [
       "Animation",
-      " Musical",
-      " Family",
-      " Comedy",
-      " Short"
+      "Musical",
+      "Family",
+      "Comedy",
+      "Short"
     ],
     "imdb_score": 7.7,
     "name": "Three Little Pigs"
@@ -2512,8 +2512,8 @@
     "director": "William A. Wellman",
     "genre": [
       "Action",
-      " Crime",
-      " Drama"
+      "Crime",
+      "Drama"
     ],
     "imdb_score": 7.8,
     "name": "The Public Enemy"
@@ -2523,10 +2523,10 @@
     "director": "Jim Sharman",
     "genre": [
       "Comedy",
-      " Musical"
+      "Musical"
     ],
     "imdb_score": 7.1,
-    "name": "The Rocky Horror Picture Show"
+    "name": "The RockyHorror Picture Show"
   },
   {
     "99popularity": 80.0,
@@ -2542,7 +2542,7 @@
     "director": "Jean Vigo",
     "genre": [
       "Drama",
-      " Romance"
+      "Romance"
     ],
     "imdb_score": 8.0,
     "name": "Latalante"
@@ -2552,7 +2552,7 @@
     "director": "Ingmar Bergman",
     "genre": [
       "Drama",
-      " Fantasy"
+      "Fantasy"
     ],
     "imdb_score": 8.2,
     "name": "Persona"
@@ -2562,7 +2562,7 @@
     "director": "George A. Romero",
     "genre": [
       "Action",
-      " Horror"
+      "Horror"
     ],
     "imdb_score": 8.0,
     "name": "Dawn of the Dead"
@@ -2572,11 +2572,11 @@
     "director": "William F. Claxton",
     "genre": [
       "Action",
-      " Comedy",
-      " Drama",
-      " Romance",
-      " War",
-      " Western"
+      "Comedy",
+      "Drama",
+      "Romance",
+      "War",
+      "Western"
     ],
     "imdb_score": 7.4,
     "name": "Bonanza"
@@ -2586,7 +2586,7 @@
     "director": "Adrian Lyne",
     "genre": [
       "Drama",
-      " Thriller"
+      "Thriller"
     ],
     "imdb_score": 6.8,
     "name": "Fatal Attraction"
@@ -2596,7 +2596,7 @@
     "director": "Edward L. Cahn",
     "genre": [
       "Horror",
-      " Sci-Fi"
+      "Sci-Fi"
     ],
     "imdb_score": 6.0,
     "name": "It! The Terror from Beyond Space"
@@ -2606,7 +2606,7 @@
     "director": "John Moffitt",
     "genre": [
       "Comedy",
-      " Music"
+      "Music"
     ],
     "imdb_score": 8.3,
     "name": "Toast of the Town"
@@ -2616,8 +2616,8 @@
     "director": "William Friedkin",
     "genre": [
       "Action",
-      " Crime",
-      " Thriller"
+      "Crime",
+      "Thriller"
     ],
     "imdb_score": 7.9,
     "name": "The French Connection"
@@ -2627,10 +2627,10 @@
     "director": "Clyde Geronimi",
     "genre": [
       "Animation",
-      " Adventure",
-      " Family",
-      " Fantasy",
-      " Music"
+      "Adventure",
+      "Family",
+      "Fantasy",
+      "Music"
     ],
     "imdb_score": 7.3,
     "name": "Peter Pan"
@@ -2640,9 +2640,9 @@
     "director": "John Nicolella",
     "genre": [
       "Action",
-      " Crime",
-      " Drama",
-      " Thriller"
+      "Crime",
+      "Drama",
+      "Thriller"
     ],
     "imdb_score": 7.8,
     "name": "Miami Vice"
@@ -2652,9 +2652,9 @@
     "director": "George Lucas",
     "genre": [
       "Action",
-      " Adventure",
-      " Fantasy",
-      " Sci-Fi"
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
     ],
     "imdb_score": 6.4,
     "name": "Star Wars : Episode I - The Phantom Menace"
@@ -2664,8 +2664,8 @@
     "director": "Martin Scorsese",
     "genre": [
       "Crime",
-      " Drama",
-      " Thriller"
+      "Drama",
+      "Thriller"
     ],
     "imdb_score": 8.8,
     "name": "Goodfellas"
@@ -2675,7 +2675,7 @@
     "director": "Michael Curtiz",
     "genre": [
       "Drama",
-      " History"
+      "History"
     ],
     "imdb_score": 6.2,
     "name": "The Egyptian"
@@ -2685,8 +2685,8 @@
     "director": "Michael OHerlihy",
     "genre": [
       "Crime",
-      " Drama",
-      " Mystery"
+      "Drama",
+      "Mystery"
     ],
     "imdb_score": 7.6,
     "name": "Hawaii Five-O"
@@ -2696,10 +2696,10 @@
     "director": "Dennis Donnelly",
     "genre": [
       "Action",
-      " Adventure",
-      " Crime",
-      " Drama",
-      " Mystery"
+      "Adventure",
+      "Crime",
+      "Drama",
+      "Mystery"
     ],
     "imdb_score": 6.6,
     "name": "Charlies Angels"
