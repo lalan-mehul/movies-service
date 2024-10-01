@@ -16,8 +16,8 @@ const getAllMovies = async (req, res) => {
 const createMovie = async (req, res) => {
     const { name, director, imdb_score, popularity, genre } = req.body;
     try {
-        await addMovie(name, director, imdb_score, popularity, genre);
-        res.status(201).json({ message: 'Movie added successfully' });
+        result = await addMovie(name, director, imdb_score, popularity, genre);
+        res.status(201).json({ message: 'Movie added successfully', id:result.insertId });
     } catch (error) {
         console.log(error)
         res.status(500).json({ error: 'Failed to add movie' });
@@ -28,8 +28,13 @@ const createMovie = async (req, res) => {
 const removeMovie = async (req, res) => {
     const { id } = req.params;
     try {
-        await deleteMovieById(id);
-        res.status(200).json({ message: 'Movie deleted successfully' });
+        result = await deleteMovieById(id);
+        console.debug(result);
+        if (result.affectedRows == 0) {
+            res.status(404).json({ message: `Movie with the id ${id} not found` });    
+        } else {
+            res.status(200).json({ message: 'Movie deleted successfully' });
+        }
     } catch (error) {
         console.log(error)
         res.status(500).json({ error: 'Failed to delete movie' });
