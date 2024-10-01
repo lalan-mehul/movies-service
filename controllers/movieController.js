@@ -33,7 +33,6 @@ const removeMovie = async (req, res) => {
     const { id } = req.params;
     try {
         result = await deleteMovieById(id);
-        console.debug(result);
         if (result.affectedRows == 0) {
             res.status(404).json({ message: `Movie with the id ${id} not found` });    
         } else {
