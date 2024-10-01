@@ -65,11 +65,90 @@ describe('DELETE /movies/:id', () => {
     it('should return 404 for a deleted movie', async () => {
         try {
             const deleteResponse = await axios.get(`${baseURL}/movies/${createdMovieId}`);
-            console.log(deleteResponse);
         } catch (err) {
             // The error should be a 404 if the movie no longer exists
-            console.log(err)
             expect(err.response.status).to.equal(404);
         }
     });
 });
+
+
+describe('Add, Get, Update, and Delete Movie API Test', () => {
+    let createdMovieId;
+
+    // Step 1: Add a new movie
+    it('should add a new movie', async () => {
+        try {
+            const addResponse = await axios.post(`${baseURL}/movies`, {
+                name: 'The Matrix',
+                director: 'Wachowskis',
+                imdb_score: 8.7,
+                popularity: 87,
+                genre: ['Action', 'Sci-Fi']
+            }, {
+                headers: { 'Content-Type': 'application/json' }
+            });
+
+            // Assuming the response contains the movie's ID
+            createdMovieId = addResponse.data.id;  // Replace with actual response data structure
+            expect(addResponse.status).to.equal(201);
+            expect(addResponse.data.message).to.equal('Movie added successfully');
+        } catch (err) {
+            throw new Error('Failed to add movie');
+        }
+    });
+
+    // Step 2: Get the newly added movie to verify creation
+    it('should get the newly added movie', async () => {
+        try {
+            const getResponse = await axios.get(`${baseURL}/movies?id=${createdMovieId}`);
+
+            expect(getResponse.status).to.equal(200);
+            expect(getResponse.data[0].name).to.equal('The Matrix');
+            expect(getResponse.data[0].director).to.equal('Wachowskis');
+        } catch (err) {
+            console.log(err);
+            throw new Error('Failed to get the newly added movie');
+        }
+    });
+
+    // Step 3: Update the added movie
+    it('should update the newly added movie', async () => {
+        try {
+            const updateResponse = await axios.patch(`${baseURL}/movies/${createdMovieId}`, {
+                imdb_score: 9.0,
+                director: 'The Wachowskis'
+            }, {
+                headers: { 'Content-Type': 'application/json' }
+            });
+
+            expect(updateResponse.status).to.equal(200);
+            expect(updateResponse.data.message).to.equal('Movie updated successfully');
+        } catch (err) {
+            throw new Error('Failed to update movie');
+        }
+    });
+
+    // Step 4: Delete the updated movie
+    it('should delete the newly updated movie', async () => {
+        try {
+            const deleteResponse = await axios.delete(`${baseURL}/movies/${createdMovieId}`);
+
+            expect(deleteResponse.status).to.equal(200);
+            expect(deleteResponse.data.message).to.equal('Movie deleted successfully');
+        } catch (err) {
+            throw new Error('Failed to delete movie');
+        }
+    });
+
+    // Step 5: Verify the movie is deleted by getting it and expecting a 404
+    it('should return 404 when trying to get the deleted movie', async () => {
+        try {
+            await axios.get(`${baseURL}/api/movies/${createdMovieId}`);
+        } catch (err) {
+            // The error should be a 404 if the movie no longer exists
+            expect(err.response.status).to.equal(404);
+        }
+    });
+});
+

@@ -9,6 +9,11 @@ const getMovies = async (searchParams) => {
         values.push(`%${searchParams.name}%`);
     }
 
+    if (searchParams.id) {
+        sql += ' AND id = ?';
+        values.push(searchParams.id);
+    }
+
     if (searchParams.director) {
         sql += ' AND director LIKE ?';
         values.push(`%${searchParams.director}%`);
@@ -24,10 +29,8 @@ const getMovies = async (searchParams) => {
         sql += ' AND JSON_CONTAINS(genre, ?)';
         values.push(`"${searchParams.genre}"`);
     }
-    console.log(values);
-    console.log(sql);
     const [rows] = await db.execute(sql, values);
-    return rows;
+return rows;
 };
 
 // Add a new movie

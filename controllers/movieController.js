@@ -5,7 +5,11 @@ const getAllMovies = async (req, res) => {
 
     try {
         const movies = await getMovies(searchParams);
-        res.status(200).json(movies);
+        if (movies.length == 0) {
+            res.status(404).json({ message: `Movie with search criteria not found` });    
+        } else {
+            res.status(200).json(movies);
+        }
     } catch (err) {
         console.log(err);
         res.status(500).json({ error: 'Failed to fetch movies' });
