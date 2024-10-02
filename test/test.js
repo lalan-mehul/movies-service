@@ -2,7 +2,7 @@ const axios = require('axios');
 const { expect } = require('chai');
 
 // Define the base URL of the running service
-const baseURL = 'http://localhost:4000'; // Adjust as per your Docker service
+const baseURL = 'http://ec2-13-232-48-79.ap-south-1.compute.amazonaws.com:4000'; // Adjust as per your Docker service
 
 describe('POST /movies', () => {
     it('should add a new movie', async () => {
@@ -44,6 +44,7 @@ describe('DELETE /movies/:id', () => {
             });
             createdMovieId = response.data.id;
         } catch (err) {
+            console.error(err)
             throw new Error('Failed to create movie for deletion test');
         }
     });
@@ -57,6 +58,7 @@ describe('DELETE /movies/:id', () => {
             expect(deleteResponse.status).to.equal(200);
             expect(deleteResponse.data.message).to.equal('Movie deleted successfully');
         } catch (err) {
+            console.error(err);
             throw new Error('Failed to delete movie');
         }
     });
@@ -64,7 +66,7 @@ describe('DELETE /movies/:id', () => {
     // Check that the movie no longer exists
     it('should return 404 for a deleted movie', async () => {
         try {
-            const deleteResponse = await axios.get(`${baseURL}/movies/${createdMovieId}`);
+            await axios.get(`${baseURL}/movies/${createdMovieId}`);
         } catch (err) {
             // The error should be a 404 if the movie no longer exists
             expect(err.response.status).to.equal(404);
@@ -94,6 +96,7 @@ describe('Add, Get, Update, and Delete Movie API Test', () => {
             expect(addResponse.status).to.equal(201);
             expect(addResponse.data.message).to.equal('Movie added successfully');
         } catch (err) {
+            console.error(err);
             throw new Error('Failed to add movie');
         }
     });
@@ -125,6 +128,7 @@ describe('Add, Get, Update, and Delete Movie API Test', () => {
             expect(updateResponse.status).to.equal(200);
             expect(updateResponse.data.message).to.equal('Movie updated successfully');
         } catch (err) {
+            console.error(err);
             throw new Error('Failed to update movie');
         }
     });
@@ -137,6 +141,7 @@ describe('Add, Get, Update, and Delete Movie API Test', () => {
             expect(deleteResponse.status).to.equal(200);
             expect(deleteResponse.data.message).to.equal('Movie deleted successfully');
         } catch (err) {
+            console.error(err);
             throw new Error('Failed to delete movie');
         }
     });

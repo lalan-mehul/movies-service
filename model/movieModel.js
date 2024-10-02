@@ -30,13 +30,13 @@ const getMovies = async (searchParams) => {
         values.push(`"${searchParams.genre}"`);
     }
     const [rows] = await db.execute(sql, values);
-return rows;
+    return rows;
 };
 
 // Add a new movie
-const addMovie = async (name, director, imdb_score,popularity, genre) => {
+const addMovie = async (name, director, imdb_score, popularity, genre) => {
     const sql = 'INSERT INTO movies (name, director, imdb_score,popularity, genre) VALUES (?, ?, ?, ?, ?)';
-    const [result] = await db.execute(sql, [name, director, imdb_score,popularity, JSON.stringify(genre)]);
+    const [result] = await db.execute(sql, [name, director, imdb_score, popularity, JSON.stringify(genre)]);
     return result;
 };
 
