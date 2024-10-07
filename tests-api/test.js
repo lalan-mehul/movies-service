@@ -1,10 +1,18 @@
 const axios = require('axios');
-const { expect } = require('chai');
 
 // Define the base URL of the running service
 const baseURL = 'http://ec2-13-232-48-79.ap-south-1.compute.amazonaws.com:4000'; // Adjust as per your Docker service
 
 describe('POST /movies', () => {
+    let chai; // Declare chai variable
+    let expect; // Declare expect variable
+
+    before(async () => {
+        // Dynamically import chai and set up 'expect'
+        chai = await import('chai');
+        expect = chai.expect;
+    });
+
     it('should add a new movie', async () => {
         try {
             const response = await axios.post(`${baseURL}/movies`, {
@@ -28,7 +36,15 @@ describe('POST /movies', () => {
 
 
 describe('DELETE /movies/:id', () => {
+    let chai; // Declare chai variable
+    let expect; // Declare expect variable
     let createdMovieId;
+
+    before(async () => {
+        // Dynamically import chai and set up 'expect'
+        chai = await import('chai');
+        expect = chai.expect;
+    });
 
     // First, create a movie that we will delete later
     before(async () => {
@@ -44,7 +60,7 @@ describe('DELETE /movies/:id', () => {
             });
             createdMovieId = response.data.id;
         } catch (err) {
-            console.error(err)
+            console.error(err);
             throw new Error('Failed to create movie for deletion test');
         }
     });
@@ -76,7 +92,15 @@ describe('DELETE /movies/:id', () => {
 
 
 describe('Add, Get, Update, and Delete Movie API Test', () => {
+    let chai; // Declare chai variable
+    let expect; // Declare expect variable
     let createdMovieId;
+
+    before(async () => {
+        // Dynamically import chai and set up 'expect'
+        chai = await import('chai');
+        expect = chai.expect;
+    });
 
     // Step 1: Add a new movie
     it('should add a new movie', async () => {
@@ -149,11 +173,10 @@ describe('Add, Get, Update, and Delete Movie API Test', () => {
     // Step 5: Verify the movie is deleted by getting it and expecting a 404
     it('should return 404 when trying to get the deleted movie', async () => {
         try {
-            await axios.get(`${baseURL}/api/movies/${createdMovieId}`);
+            await axios.get(`${baseURL}/movies/${createdMovieId}`);
         } catch (err) {
             // The error should be a 404 if the movie no longer exists
             expect(err.response.status).to.equal(404);
         }
     });
 });
-
