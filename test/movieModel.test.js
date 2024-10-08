@@ -80,4 +80,117 @@ describe('Movie Model Tests', () => {
     dbMock.execute.firstCall.args[0].should.equal(expectedSql);
     dbMock.execute.firstCall.args[1].should.deep.equal(expectedValues);
   });
+
+  it('should return an array of movies filtered by genre', async () => {
+    const mockMovies = [
+      { id: 1, name: 'Inception', director: 'Christopher Nolan', imdb_score: 8.8, genre: '["Sci-Fi"]' },
+      { id: 2, name: 'Interstellar', director: 'Christopher Nolan', imdb_score: 8.6, genre: '["Sci-Fi"]' }
+    ];
+  
+    const searchParams = { genre: 'Sci-Fi' };
+  
+    // Mock the successful response from db.execute
+    dbMock.execute.resolves([mockMovies]);
+  
+    const movies = await movieModel.getMovies(searchParams);
+    movies.should.be.an('array');
+    movies.length.should.equal(2);
+    movies[0].should.have.property('genre').that.includes('Sci-Fi');
+  });
+  
+  it('should return an array of movies filtered by id', async () => {
+    const mockMovies = [
+      { id: 1, name: 'Inception', director: 'Christopher Nolan', imdb_score: 8.8, genre: '["Sci-Fi"]' }
+    ];
+  
+    const searchParams = { id: 1 };
+  
+    // Mock the successful response from db.execute
+    dbMock.execute.resolves([mockMovies]);
+  
+    const movies = await movieModel.getMovies(searchParams);
+    movies.should.be.an('array');
+    movies.length.should.equal(1);
+    movies[0].should.have.property('id', 1);
+  });
+  
+  it('should return an array of movies filtered by multiple parameters including genre', async () => {
+    const mockMovies = [
+      { id: 1, name: 'Inception', director: 'Christopher Nolan', imdb_score: 8.8, genre: '["Sci-Fi"]' }
+    ];
+  
+    const searchParams = {
+      name: 'Inception',
+      director: 'Nolan',
+      imdb_score: 8.8,
+      genre: 'Sci-Fi'
+    };
+  
+    // Expected SQL query and values
+    const expectedSql = 'SELECT * FROM movies WHERE 1=1 AND name LIKE ? AND director LIKE ? AND imdb_score = ? AND JSON_CONTAINS(genre, ?)';
+    const expectedValues = ['%Inception%', '%Nolan%', 8.8, '"Sci-Fi"'];
+  
+    dbMock.execute.resolves([mockMovies]);
+  
+    const movies = await movieModel.getMovies(searchParams);
+    movies.should.be.an('array');
+    movies.length.should.equal(1);
+    movies[0].should.have.property('name', 'Inception');
+    movies[0].should.have.property('director', 'Christopher Nolan');
+    movies[0].should.have.property('imdb_score', 8.8);
+    movies[0].should.have.property('genre').that.includes('Sci-Fi');
+  
+    dbMock.execute.calledOnce.should.be.true;
+    dbMock.execute.firstCall.args[0].should.equal(expectedSql);
+    dbMock.execute.firstCall.args[1].should.deep.equal(expectedValues);
+  });
+
+  it('should update a movie by ID and return the updated movie', async () => {
+    const id = 1;
+    const updatedFields = { name: 'Inception Updated', imdb_score: 9.0 };
+    const mockUpdatedMovie = { id: 1, name: 'Inception Updated', director: 'Christopher Nolan', imdb_score: 9.0, genre: '["Sci-Fi"]' };
+
+    // Mock the successful response from db.execute
+    dbMock.execute.resolves([mockUpdatedMovie]);
+
+    const updatedMovie = await movieModel.updateMovieById(id, updatedFields);
+    updatedMovie.should.be.an('object');
+    updatedMovie.should.have.property('id', 1);
+    updatedMovie.should.have.property('name', 'Inception Updated');
+    updatedMovie.should.have.property('imdb_score', 9.0);
+  });
+  
+  it('should throw an error when updating a movie fails', async () => {
+    const id = 1;
+    const updatedFields = { name: 'Inception Updated', imdb_score: 9.0 };
+
+    // Mock the execute method to reject with an error
+    dbMock.execute.rejects(new Error('Update failed'));
+
+    try {
+      await movieModel.updateMovieById(id, updatedFields);
+    } catch (err) {
+      err.message.should.equal('Update failed');
+    }
+  });
+  
+    it('should build the SQL query correctly when updating a movie', async () => {
+      const id = 1;
+      const updatedFields = { name: 'Inception Updated', imdb_score: 9.0 };
+  
+      // Expected SQL query and values
+      const expectedSql = 'UPDATE movies SET name = ?, imdb_score = ? WHERE id = ?';
+      const expectedValues = ['Inception Updated', 9.0, id];
+  
+      dbMock.execute.resolves([{}]); // Mock the response
+  
+      // Call the function
+      await movieModel.updateMovieById(id, updatedFields);
+  
+      // Assert that db.execute was called with the expected SQL and values
+      dbMock.execute.calledOnce.should.be.true;
+      dbMock.execute.firstCall.args[0].should.equal(expectedSql);
+      dbMock.execute.firstCall.args[1].should.deep.equal(expectedValues);
+    });
+
 });
