@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // Define the base URL of the running service
-const baseURL = 'http://ec2-13-232-48-79.ap-south-1.compute.amazonaws.com:4000'; // Adjust as per your Docker service
+const baseURL = 'http://localhost:4000'; // Adjust as per your Docker service
 
 describe('POST /movies', () => {
     let chai; // Declare chai variable
@@ -15,7 +15,7 @@ describe('POST /movies', () => {
 
     it('should add a new movie', async () => {
         try {
-            const response = await axios.post(`${baseURL}/movies`, {
+            const response = await axios.post(`${baseURL}/admin/movies`, {
                 name: 'Inception',
                 director: 'Christopher Nolan',
                 imdb_score: 8.8,
@@ -49,7 +49,7 @@ describe('DELETE /movies/:id', () => {
     // First, create a movie that we will delete later
     before(async () => {
         try {
-            const response = await axios.post(`${baseURL}/movies`, {
+            const response = await axios.post(`${baseURL}/admin/movies`, {
                 name: 'The Matrix',
                 director: 'Wachowskis',
                 imdb_score: 8.7,
@@ -68,7 +68,7 @@ describe('DELETE /movies/:id', () => {
     // Test the DELETE endpoint
     it('should delete the movie by ID', async () => {
         try {
-            const deleteResponse = await axios.delete(`${baseURL}/movies/${createdMovieId}`);
+            const deleteResponse = await axios.delete(`${baseURL}/admin/movies/${createdMovieId}`);
             
             // Assertions
             expect(deleteResponse.status).to.equal(200);
@@ -105,7 +105,7 @@ describe('Add, Get, Update, and Delete Movie API Test', () => {
     // Step 1: Add a new movie
     it('should add a new movie', async () => {
         try {
-            const addResponse = await axios.post(`${baseURL}/movies`, {
+            const addResponse = await axios.post(`${baseURL}/admin/movies`, {
                 name: 'The Matrix',
                 director: 'Wachowskis',
                 imdb_score: 8.7,
@@ -142,7 +142,7 @@ describe('Add, Get, Update, and Delete Movie API Test', () => {
     // Step 3: Update the added movie
     it('should update the newly added movie', async () => {
         try {
-            const updateResponse = await axios.patch(`${baseURL}/movies/${createdMovieId}`, {
+            const updateResponse = await axios.patch(`${baseURL}/admin/movies/${createdMovieId}`, {
                 imdb_score: 9.0,
                 director: 'The Wachowskis'
             }, {
@@ -160,7 +160,7 @@ describe('Add, Get, Update, and Delete Movie API Test', () => {
     // Step 4: Delete the updated movie
     it('should delete the newly updated movie', async () => {
         try {
-            const deleteResponse = await axios.delete(`${baseURL}/movies/${createdMovieId}`);
+            const deleteResponse = await axios.delete(`${baseURL}/admin/movies/${createdMovieId}`);
 
             expect(deleteResponse.status).to.equal(200);
             expect(deleteResponse.data.message).to.equal('Movie deleted successfully');
@@ -173,7 +173,7 @@ describe('Add, Get, Update, and Delete Movie API Test', () => {
     // Step 5: Verify the movie is deleted by getting it and expecting a 404
     it('should return 404 when trying to get the deleted movie', async () => {
         try {
-            await axios.get(`${baseURL}/movies/${createdMovieId}`);
+            await axios.get(`${baseURL}/admin/movies/${createdMovieId}`);
         } catch (err) {
             // The error should be a 404 if the movie no longer exists
             expect(err.response.status).to.equal(404);
