@@ -30,13 +30,15 @@
     "nyc": "^17.1.0",
     "proxyquire": "^2.1.3",
     "sinon": "^19.0.2",
+    "sinon-chai": "^4.0.0",
     "supertest": "^7.0.0"
   },
   "nyc": {
     "include": [
-      "controllers/**/*.js",
-      "model/**/*.js",
-      "route/**/*.js"
+      "controllers/*.js",
+      "models/*.js",
+      "routes/*.js",
+      "services/*.js"
     ],
     "exclude": [
       "test/**/*.js"

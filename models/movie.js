@@ -1,7 +1,7 @@
 const { DataTypes, Op } = require('sequelize');
 const {sequelize} = require('../config/db');
 
-const Movie = sequelize.define('Movie', {
+const movie = sequelize.define('movie', {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
@@ -33,7 +33,7 @@ const Movie = sequelize.define('Movie', {
 });
 
 // Static method to add a movie
-Movie.addMovies = async function(movieData) {
+movie.addMovies = async function(movieData) {
   try {
     const movie = await this.create(movieData);
     return movie; // Return the created movie object
@@ -43,7 +43,7 @@ Movie.addMovies = async function(movieData) {
 };
 
 // Static method to delete a movie by ID
-Movie.deleteMovie = async function(movieId) {
+movie.deleteMovie = async function(movieId) {
   try {
     const deletedCount = await this.destroy({
       where: {
@@ -57,7 +57,7 @@ Movie.deleteMovie = async function(movieId) {
   }
 };
 
-Movie.getMovies = async function(searchParams) {
+movie.getMovies = async function(searchParams) {
   try {
     const whereClause = {};
 
@@ -83,6 +83,11 @@ Movie.getMovies = async function(searchParams) {
       if (searchParams.imdb_score) {
         whereClause.imdb_score = searchParams.imdb_score;
       }
+      // Exact match on popularity
+      if (searchParams.popularity) {
+        whereClause.popularity = searchParams.popularity;
+      }
+
       // Contains search on genre
       if (searchParams.genre) {
         whereClause.genre = sequelize.where(
@@ -101,7 +106,7 @@ Movie.getMovies = async function(searchParams) {
 };
 
 
-Movie.updateMovie = async function(movieId, updateData) {
+movie.updateMovie = async function(movieId, updateData) {
   try {
     const updates = await this.update(updateData, {
       where: {
@@ -115,4 +120,4 @@ Movie.updateMovie = async function(movieId, updateData) {
   }
 };
 
-module.exports = Movie;
+module.exports = movie;

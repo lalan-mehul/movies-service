@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // Define the base URL of the running service
-const baseURL = 'http://localhost:4000'; // Adjust as per your Docker service
+const baseURL = 'http://ec2-13-232-48-79.ap-south-1.compute.amazonaws.com:4000'; // Adjust as per your Docker service
 
 describe('POST /movies', () => {
     let chai; // Declare chai variable
