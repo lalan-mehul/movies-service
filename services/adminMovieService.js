@@ -3,8 +3,8 @@ const movie = require('../models/movie');
 // Method to add a new movie
 async function addMovie(movieData) {
     try {
-      const movie = await movie.addMovies(movieData);
-      return movie; // Return the added movie object
+      const addedMovie = await movie.addMovies(movieData);
+      return addedMovie; // Return the added movie object
     } catch (error) {
       throw new Error('Error in MovieService.addMovie: ' + error.message);
     }
