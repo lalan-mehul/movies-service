@@ -38,7 +38,8 @@
       "controllers/*.js",
       "models/*.js",
       "routes/*.js",
-      "services/*.js"
+      "services/*.js",
+      "config/*.js"
     ],
     "exclude": [
       "test/**/*.js"

@@ -14,4 +14,5 @@ The end-point will be exposed on port 4000
 e.g. https://<hostname>:4000/movies
 
 ## pending TODO items:
-The APIs are exposed, but don't check for authentication and authorisation. These need to be implemented.
+Unit tests for controllers, services, routes
+Authentication and authorisation
