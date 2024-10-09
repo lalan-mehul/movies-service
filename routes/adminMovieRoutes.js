@@ -1,5 +1,5 @@
 const express = require('express')
-const {createMovie, removeMovie, modifyMovie } = require('../controllers/adminMovieController');
+const {createMovie, removeMovie, updateMovie } = require('../controllers/adminMovieController');
 
 const router = express.Router()
 
@@ -9,6 +9,6 @@ router.post('/', createMovie);
 // Delete movie endpoint
 router.delete('/:id', removeMovie);
 
-router.patch('/:id', modifyMovie);
+router.patch('/:id', updateMovie);
 
 module.exports = router

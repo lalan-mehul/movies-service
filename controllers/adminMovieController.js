@@ -3,10 +3,10 @@ const { addMovie, deleteMovieById,updateMovieById } = require('../services/admin
 
 // Add a new movie
 const createMovie = async (req, res) => {
-    const { name, director, imdb_score, popularity, genre } = req.body;
+    const movieData  = req.body;
     try {
-        const result = await addMovie(name, director, imdb_score, popularity, genre);
-        res.status(201).json({ message: 'Movie added successfully', id: result.insertId });
+        const movie = await addMovie(movieData);
+        res.status(201).json({ message: 'Movie added successfully', id: movie.id });
     } catch (error) {
         console.log(error)
         res.status(500).json({ error: 'Failed to add movie' });
@@ -17,8 +17,8 @@ const createMovie = async (req, res) => {
 const removeMovie = async (req, res) => {
     const { id } = req.params;
     try {
-        const result = await deleteMovieById(id);
-        if (result.affectedRows == 0) {
+        const deletedCount = await deleteMovieById(id);
+        if (deletedCount === 0) {
             res.status(404).json({ message: `Movie with the id ${id} not found` });
         } else {
             res.status(200).json({ message: 'Movie deleted successfully' });
@@ -30,11 +30,16 @@ const removeMovie = async (req, res) => {
 };
 
 // Update (PATCH) a movie by ID
-const modifyMovie = async (req, res) => {
+const updateMovie = async (req, res) => {
     const { id } = req.params;
     const updatedFields = req.body;
     try {
-        await updateMovieById(id, updatedFields);
+        const updates = await updateMovieById(id, updatedFields);
+        console.log(updates);
+        if (updates[1] === 0) {
+            res.status(404).json({ message: `Movie with the id ${id} not found or it doesn't need any updates` });
+            return;
+        }
         res.status(200).json({ message: 'Movie updated successfully' });
     } catch (error) {
         console.log(error);
@@ -42,5 +47,4 @@ const modifyMovie = async (req, res) => {
     }
 };
 
-
-module.exports = {createMovie, removeMovie, modifyMovie };
+module.exports = {createMovie, removeMovie, updateMovie };
