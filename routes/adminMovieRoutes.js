@@ -31,11 +31,16 @@ router.post('/', (req, res) => {
 // Middleware to validate id parameter
 function validateId(req, res, next) {
     const { id } = req.params;
+    // the request doesn't reach update/delete endpoint if id is not provided
+    // so the first if condition is not necessary
     if (!id) {
         return res.status(400).json({ error: 'ID parameter is required' });
     }
     if (isNaN(id)) {
         return res.status(400).json({ error: 'ID parameter must be a number' });
+    }
+    if (id < 0) {
+        return res.status(400).json({ error: 'ID parameter must be a positive number' });
     }
     next();
 }
