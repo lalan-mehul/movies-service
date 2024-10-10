@@ -1,7 +1,8 @@
 // tests/movie.test.js
 
 const sinon = require('sinon');
-const { Sequelize } = require('sequelize'); // Adjust the path as necessary
+const { describe, before, beforeEach, afterEach, it } = require('mocha');
+const { Sequelize, Op } = require('sequelize'); // Adjust the path as necessary
 const movie = require('../models/movie'); // Adjust the path as necessary
 
 describe('Movie Model', function () {
